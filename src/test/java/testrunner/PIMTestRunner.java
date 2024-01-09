@@ -1,8 +1,14 @@
+package testrunner;
+
+import com.github.javafaker.Faker;
+import config.Setup;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+import pages.LoginPage;
+import pages.PIMPage;
 
 public class PIMTestRunner extends Setup {
 @BeforeTest
@@ -13,7 +19,14 @@ public class PIMTestRunner extends Setup {
 @Test(priority = 1)
     public  void createUSer() throws InterruptedException {
         PIMPage pimPage=new PIMPage(driver);
-        pimPage.createUser("samal","sudu","samal1234","srottoy1234");
+
+    Faker faker =new Faker();
+
+    String firstName=faker.name().firstName();
+    String lastName=faker.name().lastName();
+    String userName=faker.name().username();
+//    String password="srottoy1234";
+        pimPage.createUser(firstName,lastName,userName,"srottoy1234");
     Thread.sleep(4000);
 
     WebElement headerElement=driver.findElement(By.xpath("//h6[text()=\"Personal Details\"]"));
