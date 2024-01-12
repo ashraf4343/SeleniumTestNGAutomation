@@ -44,6 +44,7 @@ Java is installed.
 TestNG is installed.
 Selenium WebDriver is installed.
 Getting Started
+
 Follow these steps to get started with the project:
 
 Clone the repository.
@@ -55,12 +56,12 @@ cd SeleniumTestNGAutomation
 Install dependencies.
 
 
-Copy code
+
 # Add instructions to install any required dependencies.
 Run the tests.
 
 
-Copy code
+
 # Example command to run tests using TestNG
 ./gradle clean test
 Additional steps if necessary.
