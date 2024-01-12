@@ -1,4 +1,5 @@
 Selenium TestNG Automation
+
 Welcome to the Selenium TestNG Automation project! This project employs TestNG and Selenium for automated testing of various functionalities.
 
 Test Results
@@ -43,18 +44,18 @@ Follow these steps to get started with the project:
 
 Clone the repository.
 
-bash
+
 Copy code
 git clone https://github.com/ashraf4343/SeleniumTestNGAutomation.git
 cd SeleniumTestNGAutomation
 Install dependencies.
 
-bash
+
 Copy code
 # Add instructions to install any required dependencies.
 Run the tests.
 
-bash
+
 Copy code
 # Example command to run tests using TestNG
 ./gradle clean test
