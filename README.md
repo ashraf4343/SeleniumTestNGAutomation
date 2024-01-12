@@ -1,6 +1,5 @@
 Selenium TestNG Automation
-
-Welcome to the Selenium TestNG Automation project! This project employs TestNG and Selenium for automated testing of various functionalities.
+Welcome to the Selenium TestNG Automation project! This project utilizes TestNG and Selenium for automated testing of various functionalities.
 
 Test Results
 The test suite comprises a total of 5 tests, all of which were executed successfully with no failures or ignored tests. The entire test suite took 28.974 seconds to run.
@@ -12,19 +11,22 @@ Ignored Tests: 0
 Duration: 28.974 seconds
 Success Rate: 100%
 Test Classes
-1. LoginTestRunner
+LoginTestRunner
+
 Tests: 3
 Failures: 0
 Ignored Tests: 0
 Duration: 7.422 seconds
 Success Rate: 100%
-2. PIMTestRunner
+PIMTestRunner
+
 Tests: 1
 Failures: 0
 Ignored Tests: 0
 Duration: 18.473 seconds
 Success Rate: 100%
-3. UserTestRunner
+UserTestRunner
+
 Tests: 1
 Failures: 0
 Ignored Tests: 0
@@ -62,8 +64,8 @@ Copy code
 Additional steps if necessary.
 
 Test Results Visualization
-
-![Screenshot_55](https://github.com/ashraf4343/SeleniumTestNGAutomation/assets/24635317/5bf00b09-7754-4333-835e-e6d5b64e50bc)
+Test Results Screenshot
+![Screenshot_55](https://github.com/ashraf4343/SeleniumTestNGAutomation/assets/24635317/5bda6e67-0eed-4261-9721-e60aea01b67c)
 
 
 Feel free to reach out for any questions or feedback!
